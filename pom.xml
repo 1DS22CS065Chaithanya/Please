@@ -4,4 +4,14 @@
   <artifactId>Please</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <build>
+  <finalName>Please</finalName>
+  <plugins>
+    <plugin>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.4.0</version>
+    </plugin>
+    <!-- Add other plugins as needed -->
+  </plugins>
+</build>
 </project>
